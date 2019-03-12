@@ -16,3 +16,6 @@ class calc:
             raise ZeroDivisionError
         else:
             return num1 / num2
+        
+     def mod(self,num1,num2):
+        return num1 % num2
